@@ -16,13 +16,14 @@ Just triple click those long lines and paste them in a bookmark.
 
 ### Ager
 
-A bookmarklet that adds an agin text besides the selection in a webpage.
+A bookmarklet that adds an aging text besides the selection in a webpage.
 The aging text shows how long ago the selected datetime/instant was, updating every second.
 
 You can run it on these samples:  
 Lorem ipsum 2022-03-20 dolor sit amet 21:41  
 Or a fuller datetime 2022-03-21T21:23:44Z  
-potentially with offset: 2022-03-21T21:23:44+0000
+potentially with offset: 2022-03-21T21:23:44+0000  
 (Anything javascript's Date.parse can handle, really, plus a bit more)
 
-![docs/ager.png]
+
+![ager](docs/ager.PNG)

@@ -126,7 +126,7 @@ javascript: (function() {
         }
 
         const now = new Date();
-        const y = (year && year.length > 2 ? year : "20" + year) || now.getFullYear();
+        const y = (year && (year.length > 2 ? year : "20" + year)) || now.getFullYear();
         const m = month || (now.getMonth() + 1);
         const d = day || now.getDate();
         const s = seconds || now.getSeconds();

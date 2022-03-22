@@ -79,6 +79,7 @@ javascript: (function() {
     ].join("\n"));
 
     var agers = window.agers || ((keepN > 0) && []);
+    window.agers = agers;
     if (agers && !window.agerTickInterval) {
         window.agerTickInterval = setInterval(function() { for (var a of agers) a.tick(); }, 1000);
     }
